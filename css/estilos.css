@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: 'BTTF' ;
+    src:url(../fonts/BTTF.ttf);
+    font-style: normal;
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'future_not_found';
+    src:url(../fonts/Future\ n0t\ Found\ Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    background-image: linear-gradient(to bottom, #06091a 230px, #111e38, #16305a, #14447f, #0059a5);
+}
+
+header{
+    margin: auto;
+    height: 230px;
+    max-width: 940px;
+    background-image: url(../img/backfuture_banner.jpg); /* ahy que agregarle el ../ si no no lo toma. */
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    margin: auto;
+    height: fit-content;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemMenu{
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'BTTF';
+    font-size: large;
+    text-decoration: none;
+    text-shadow: 2px 2px #06091a;
+    color: rgb(194, 220, 243);
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(185, 185, 185);
+    background-color: #0083c3;
+}
+
+.itemMenu:hover{
+    background: linear-gradient(red,yellow);
+    color: transparent;
+}
+
+main{
+    width: auto;
+    text-align: center;
+    margin-top: 20px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    max-width: 940px;
+    text-align: left;
+    margin: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-family: 'BTTF';
+    /* color: rgb(194, 220, 243); */
+    background: linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.info{
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'future_not_found';
+    font-size:medium;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    color: rgb(194, 220, 243);
+/*     border: 2;
+    border-style: dotted;
+    border-color: black; */
+}
+
+.imagen{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+/*     border: 2;
+    border-style: dotted;
+    border-color: black; */
+}
+
+.video{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+/*     border: 2;
+    border-style: dotted;
+    border-color: black; */
+}
+
+.milista li{
+    list-style-image: url('/img/icon.png');
+}
+
+.form_contac{
+/*     background-color: transparent;
+ */    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formulario{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(185, 185, 185);
+    background-color: #0d1f3d;
+    font-family: 'future_not_found';
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.etiqueta{
+     margin-left: 50px; 
+     margin-bottom: 10px;
+     margin-top: 20px;
+     color: chocolate;
+}
+
+.datosForm{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'future_not_found';
+    font-size: 20px;
+}
+
+.textoMensaje{
+    height: 150px;
+    resize: none;
+}
+
+.boton{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: 'future_not_found';
+    color: beige;
+    background-color: chocolate;
+}
+
+.boton:hover{
+    background: linear-gradient(red,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer{
+    margin: auto;
+    height: fit-content;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer>section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     border: 2;
+    border-style: dotted;
+    border-color: black; */
+}
