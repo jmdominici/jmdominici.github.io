@@ -2,98 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea Clase 05</title>
-    <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <title>Energías Renovables - FIE</title>
 </head>
 <header>
-    <!-- <img src="img/backfuture_banner.jpg" alt="backfuture_banner"> --><!-- usando align no pude centrar la imagen -->
+    <section>
+        <a href="https://www.fie.undef.edu.ar/">
+            <img id="LogoFIE" src="images/LogoFIE-web-266x62-Bl.png" alt="fie-BL">              
+        </a>
+        <nav class="redes-sociales">
+            <a href="https://www.linkedin.com/school/fieingenieria/">
+                <img src="images/icon-linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://www.instagram.com/fieingenieria/">
+                <img src="images/icon-instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.youtube.com/c/SomosFIE/videos">
+                <img src="images/icon-youtube.png" alt="youtube">
+            </a>
+            <a href="https://www.facebook.com/FIEingenieria/">
+                <img src="images/icon-facebook.png" alt="facebook">
+            </a>
+            <a href="https://x.com/FIEingenieria">
+                <img src="images/icon-twitterx.png" alt="twitterx">                
+            </a>
+        </nav>
+    </section>
+
+    <section>
+        <img src="images/LogoFIE-600x600.png" alt="LogoFIE" height="90%">
+    </section>
+
+    <section>
+        <nav id="menu">
+            <a class="itemMenu" href="index.html"> Inicio </a> 
+            <a class="itemMenu" href="https://www.google.com/"> Google </a>
+            <a class="itemMenu" href="pages/contacto.html"> Contacto </a>
+        </nav>
+    </section>
 </header>
-
-<nav id="menu">
-    <a class="itemMenu" href="index.html"> Inicio </a> 
-    <a class="itemMenu" href="https://www.google.com/"> Google </a>
-    <a class="itemMenu" href="pages/contacto.html"> Contacto </a>
-</nav>
-
-<body>
+<body>    
     <main>
-        <h1>Volver al Futuro</h1> <br>
-        <article>
-            <section class="imagen">
-                <img src="img/doc1.jpg" alt="doc1" width="90%">
-            </section>
+        <div class="portada-container">
+            <h2>Refugio autosustentable</h2>
+        </div>
+        
+        <div class="carrusel-container">
+            <button class="carrusel-button-container carrusel-button-left" id="anterior">
+                <img src="/images/Left.png" alt="left">
+            </button>
 
-            <section class="info">
-                <h2>Emmett Brown</h2>
-                <p>Emmett Brown es un científico y el mejor amigo del protagonista de la serie, Marty McFly (interpretado por Michael J. Fox). Nacido en el ficticio pueblo de Hill Valley, California, en 1914, se define como "estudiante de todas las ciencias" (lo que le afirma en la tercera película) y pasa gran parte de su tiempo inventando diversos artefactos, entre los que destaca la máquina del tiempo, construida sobre la carrocería de un automóvil deportivo llamado DeLorean DMC-12, que motiva las peripecias de Back to the Future. Entre sus ídolos se cuentan: Isaac Newton, Benjamin Franklin, Thomas Edison y Albert Einstein, todos ellos retratados y encuadrados encima de la chimenea de su salón. En 1955 tiene un perro llamado Copérnico y más tarde, en 1985, otro llamado Einstein.</p>
-                <p>La gente de Hill Valley lo ve como un extraño, un excéntrico, e incluso como un loco, por ello tiene pocos amigos (el único, realmente, es Marty McFly). Sin embargo, cuida mucho de la gente que está cerca de él. No creía en el "amor a primera vista", pero termina enamorándose en su primer encuentro con la profesora Clara Clayton, a quien conoce en 1885, cuando viaja al pasado. Con ella se casa y tienen dos hijos: Julio y Verne (en referencia a Julio Verne, autor favorito de Clara y Emmett en la película).</p>
-                <p>Le gusta el jazz, las novelas de Julio Verne y las películas del oeste. No suele beber alcohol, ya que le afecta de forma desmedida, como se puede apreciar en Back to the Future Part III. Es alérgico a las fibras sintéticas.</p>
-                <p>Doc es capaz de modificar y construir cualquier tipo de máquina. Fue capaz de crear un gran refrigerador en 1885 (aunque su proceso de trabajo es aparatoso y complicado) y fue un éxito el funcionamiento de una máquina del tiempo que construyó a partir de una locomotora de vapor, que aparece al final de la tercera película.</p>
-            </section>     
-        </article>
+            <div id="carrusel-image-container"></div>
 
-        <article>
-            <section class="imagen">
-                <img src="img/DeLorean1.webp" alt="delorean1" width="90%">
-            </section>
+            <button class="carrusel-button-container carrusel-button-right" id="siguiente">
+                <img src="/images/Right.png" alt="right">
+            </button>
+        </div>
 
-            <section class="info">
-                <h2>DeLorean y sus viajes</h2>
-                <p>Es una máquina del tiempo de la película "Volver al Futuro". Los circuitos del tiempo indican a una persona que la utilice a dónde va, dónde está y dónde ha estado. Cuando el vehículo acelera a 88 mph, empieza el desplazamiento temporal, en donde el condensador de flujo empieza a producir electricidad que llega al parachoques, en donde de los neumáticos salen llamas de fuego por fricción, y en donde el auto llega a 88mph (aprox. 140 km/h), desapareciendo en una nube de partículas y un par de líneas de fuego provocados por la mecánica cuántica.</p>
-                <p>Después de la explosión de partículas se dice que el auto ha viajado a la fecha que se indicó en los circuitos del tiempo.</p>
-                <p>Cuando el DeLorean aparece en una fecha, este aparece en destellos azules y en movimiento.</p>
-            </section>
-        </article>
+        <div class="slider-container">  
+            <img
+                class="slider-item"
+                src="https://images.unsplash.com/photo-1580501170961-bb0dbf63a6df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80"
+            />
+            <img
+                class="slider-item"
+                src="https://images.unsplash.com/photo-1580501170888-80668882ca0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            />
+            <img
+                class="slider-item"
+                src="https://images.unsplash.com/photo-1572508589584-94d778209dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            />
+        </div> 
 
-        <article>
-            <section class="info">
-                <h2>Hill Valley</h2>
-                <p>Hill Valley es una ciudad californiana ficticia de la trilogía de películas de Back to the Future y su serie animada.</p>
-                <p>En la trilogía, Hill Valley se ve en cuatro diversos períodos (1885, 1955, 1985 y 2015) así como en una distópica realidad alternativa; por otro lado, en el videojuego de 2010 Back to the Future: The Game también se presencian los períodos de 1876, 1931 y 1986, junto a varias realidades alternativas de este último. Además del diagrama principal, las películas contienen muchas escenas de la ciudad, insinuaciones verbales que dan a conocer acontecimientos vividos por la ciudad y elementos detallados del diseño de la misma.</p>
-                <p>El nombre "Hill Valley" es en sí mismo una broma, creada a base de un oxímoron. Este nombre también es similar a Mill Valley, una ciudad real de California cercana a San Francisco.</p>
-            </section>
-
-            <section class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371204.596280091!2d-125.96066088716573!3d37.83487448412683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808590733c5a3c93%3A0xd27fa4ddcff9d586!2sMill%20Valley%2C%20California%2094941%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1648040730555!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section>
-        </article>
-
-        <article>
-            <section class="video">
-                <video src="video/caminos.mp4" controls width="95%"></video>
-            </section>
-            
-            <section class="info viajes">
-                <h2>Fechas de viajes en el tiempo</h2>
-                <ul class="milista">
-                    <li>26 de octubre de 1985, 01:21 (1 minuto al futuro)</li>
-                    <li>5 de noviembre de 1955, 06:00</li>
-                    <li>26 de octubre de 1985, 01:24</li>
-                    <li>21 de octubre del 2015, 16:29</li>
-                    <li>12 de noviembre del 1955, 18:38</li>
-                    <li>21 de octubre del 2015, 19:28</li>
-                    <li>26 de octubre de 1985, 21:00 (Segunda Línea Temporal)</li>
-                    <li>12 de noviembre de 1955, 06:00</li>
-                    <li>1 de enero de 1885, 12:00</li>
-                    <li>2 de septiembre de 1885, 12:00</li>
-                    <li>27 de octubre de 1985, 11:00</li>
-                    <li>10 de diciembre de 2009 (comprá bitcoins)</li>
-                </ul>
-            </section>
-        </article>
     </main>
 </body>
-
 <footer>
-    <section>
-        <audio src="audio/theme.mp3" controls autoplay></audio>
-    </section>
-    <section>
-        <a href="https://www.google.com/"><img src="img/google-logo.svg" alt="logo" width="100"></a>
-    </section>
+    <script src="/index.js"></script> <!-- Coloco el script al final para que primero cargue todo y luego busque -->
 </footer>
-
 </html>
